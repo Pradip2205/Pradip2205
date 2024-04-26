@@ -1,0 +1,39 @@
+version: 2
+sources:
+  - name: training
+    database: DB_DBTDEV
+    schema: DWH_TRAINING
+    tables:
+      - name: ALBUM
+        description: title and artist details
+
+      - name:  ARTIST
+        description: artistID and name
+
+      - name:  CUSTOMER
+        description: contains customer details like name, place, demographic etc.
+
+      - name:  EMPLOYEE
+        description: contains EMPLOYEE details like name, place, demographic etc.
+
+      - name:  GENRE
+        description: genereID and name.
+
+      - name:  INVOICE
+        description: invoice and customer details.
+
+      - name:  INVOICELINE
+        description: quantity and pricing details.
+
+      - name:  MEDIATYPE
+        description: media details
+
+      - name:  PLAYLIST
+        description: playlist name.
+
+      - name:  PLAYLISTTRACK
+        description: playlist_id and track_id.
+
+      - name:  TRACK
+        description: track details including album and artist details.
+        
