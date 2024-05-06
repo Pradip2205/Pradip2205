@@ -7,33 +7,32 @@ sources:
       - name: ALBUM
         description: title and artist details
 
-      - name:  ARTIST
+      - name: ARTIST
         description: artistID and name
 
-      - name:  CUSTOMER
+      - name: CUSTOMER
         description: contains customer details like name, place, demographic etc.
 
-      - name:  EMPLOYEE
+      - name: EMPLOYEE
         description: contains EMPLOYEE details like name, place, demographic etc.
 
-      - name:  GENRE
+      - name: GENRE
         description: genereID and name.
 
-      - name:  INVOICE
+      - name: INVOICE
         description: invoice and customer details.
 
-      - name:  INVOICELINE
+      - name: INVOICELINE
         description: quantity and pricing details.
 
-      - name:  MEDIATYPE
+      - name: MEDIATYPE
         description: media details
 
-      - name:  PLAYLIST
+      - name: PLAYLIST
         description: playlist name.
 
-      - name:  PLAYLISTTRACK
+      - name: PLAYLISTTRACK
         description: playlist_id and track_id.
 
-      - name:  TRACK
+      - name: TRACK
         description: track details including album and artist details.
-        
